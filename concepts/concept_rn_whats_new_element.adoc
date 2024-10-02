@@ -1,0 +1,211 @@
+---
+permalink: concepts/concept_rn_whats_new_element.html 
+sidebar: sidebar 
+keywords: netapp, solidfire, element, storage, solidfire enterprise sds 
+summary: O NetApp atualiza periodicamente o software SolidFire e Element para oferecer novos recursos, aprimoramentos e correções de bugs. 
+---
+= O que há de novo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+O NetApp atualiza periodicamente o software SolidFire e Element para oferecer novos recursos, aprimoramentos e correções de bugs. O Element 12,3 apresenta melhorias de criptografia de software em repouso, aprimoramentos de segurança, atualizações de firmware de armazenamento, funcionalidade aprimorada de snapshot e comportamento aprimorado para unidades com falha.
+
+
+
+== NetApp Bugs Online contém problemas conhecidos e resolvidos
+
+Problemas conhecidos e resolvidos agora estão listados na ferramenta NetApp Bugs Online. Você pode procurar esses problemas para o Element e outros produtos.
+
+. Vá para https://mysupport.netapp.com/site/products/all/details/solidfire-elementos/bugsonline-tab["NetApp Bugs Online"^].
+. Digite o nome do produto, por exemplo "elemento", no campo *pesquisar por palavra-chave*.
+. Selecione o image:plus_icon.PNG["ícone plus"] ícone, selecione *Fixed in Versions* e selecione *OK*.
++
+image:bol_filters.PNG["Filtros BOL, alinhar \"centro\""]
+
+. Para filtrar por liberação, digite a versão de liberação no campo *Fixed in Versions*.
+
+
+
+
+== Elemento 12.3.2
+
+Saiba mais sobre o que há de novo no elemento 12,3.2.
+
+A versão do software Element 12.3.2 contém a mitigação que fecha a exposição do software Element à vulnerabilidade do Apache Log4j. Os clusters de storage do NetApp SolidFire com o recurso volumes virtuais (vols) habilitado são expostos a essa vulnerabilidade.
+
+
+
+== Elemento 12.3.1
+
+Saiba mais sobre o que há de novo no elemento 12,3.1.
+
+
+
+=== Pacote de firmware de armazenamento 2.99.2
+
+A versão do Element 12.3.1 inclui o pacote de firmware de armazenamento versão 2.99.2. Se o seu cluster de storage já estiver no Element 12,3, você terá a opção de simplesmente instalar o novo pacote de firmware 2.99.2.
+
+
+
+== Suporte para classificação de nó de CPU dinâmica para plataformas de host SolidFire ESDS
+
+O SolidFire agora pode suportar a gama completa de CPUs de geração de Lago cascata de Ouro e Prata Intel, uma gama de modelos 24D. O recurso classificação de nó dinâmico atribui uma classificação de IOPS de QoS entre 50K e 100K ao servidor host com base na CPU.
+
+[cols="100,100"]
+|===
+| Número de núcleos de CPU | Classificação de IOPS do nó ESDS 
+
+
+ a| 
+8
+ a| 
+50K
+
+
+
+ a| 
+10
+ a| 
+60K
+
+
+
+ a| 
+12
+ a| 
+75K
+
+
+
+ a| 
+Mais de 16 anos
+ a| 
+100K
+
+|===
+
+
+=== Suporte para configuração de rede de ligação única para SolidFire ESDS
+
+Agora você pode usar uma configuração de rede de ligação única para o seu host com o SolidFire ESDS.
+
+
+
+=== Novo suporte ao servidor no SDS empresarial do SolidFire
+
+O SolidFire ESDS está agora disponível em servidores HPE DL380. Consulte o https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU&src=IMT["Ferramenta de Matriz de interoperabilidade NetApp (IMT)"^] para obter mais informações sobre a configuração suportada.
+
+
+
+== Elemento 12,3
+
+Saiba mais sobre o que há de novo no Element 12,3.
+
+
+
+=== Suporte a fila de instantâneos FIFO
+
+O Element 12,3 permite que você crie uma fila FIFO (First-in-First-out) para instantâneos de volume. Usando a API Element, você pode especificar o número mínimo e máximo de slots de snapshot FIFO que devem ser reservados ao criar um volume. Quando a fila de instantâneos FIFO para um volume está cheia, o próximo instantâneo criado para esse volume remove o instantâneo mais antigo desse volume do sistema. Os snapshots FIFO e não FIFO usam o mesmo pool de slots de snapshot disponíveis em um volume.
+
+Os seguintes métodos da API Element estão relacionados aos snapshots FIFO (consulte link:../api/index.html["Documentação da API Element"]para obter detalhes sobre cada método de API):
+
+* CreateGroupSnapshot
+* CreateSchedule
+* CreateSnapshot
+* Createvolume
+* Modificar GroupSnapshot
+* ModifySchedule
+* ModifySnapshot
+* Modifyvolume
+* ModifyVolumes
+
+
+
+
+=== Suporte a serialização de instantâneos
+
+O Element 12,3 suporta a criação de instantâneos serializados. Ao criar um novo snapshot usando a API Element, você pode especificar que o snapshot não deve ser criado se uma replicação de snapshot anterior ainda estiver em andamento.
+
+Os seguintes métodos da API Element estão relacionados à serialização de instantâneos (consulte link:../api/index.html["Documentação da API Element"]para obter detalhes sobre cada método de API):
+
+* CreateGroupSnapshot
+* CreateSchedule
+* CreateSnapshot
+* ModifySchedule
+
+
+
+
+=== Suporte à retenção de snapshot
+
+O Element 12,3 permite especificar um tempo de retenção para snapshots. Se você não especificar um tempo de retenção ou um tempo de expiração para um instantâneo, ele será retido para sempre.
+
+Os métodos de API Element a seguir estão relacionados à retenção de snapshot (consulte link:../api/index.html["Documentação da API Element"]para obter detalhes sobre cada método de API):
+
+* CreateGroupSnapshot
+* CreateSchedule
+* CreateSnapshot
+* Modificar GroupSnapshot
+* ModifySchedule
+* ModifySnapshot
+
+
+
+
+=== Melhorias na criptografia de software em repouso
+
+Para o recurso de criptografia de software em repouso, o Element 12,3 introduz o Gerenciamento de chave externa (EKM) e a capacidade de rechavear a chave mestra de criptografia de software. É possível ativar a criptografia de software em repouso ao criar um cluster de storage. Quando você cria um cluster de storage de SDS empresarial do SolidFire, a criptografia de software em repouso é habilitada por padrão. Esse recurso criptografa todos os dados armazenados nos SSDs nos nós de storage e causa apenas um impacto muito pequeno na performance de I/o cliente (cerca de 2%).
+
+Os seguintes métodos da API Element estão relacionados à criptografia de software em repouso (consulte link:../api/index.html["Documentação da API Element"]para obter detalhes sobre cada método de API):
+
+* CreateCluster
+* DisableEncryptionAtRest
+* EnableEncryptionAtRest
+* GetSoftwareEncryptionAtRestInfo
+* RekeySoftwareEncryptionAtRestMasterKey
+
+
+
+
+=== Atualizações de firmware do nó de storage
+
+O Element 12,3 inclui atualizações de firmware para nós de storage. link:../concepts/concept_rn_relatedrn_element.html#storage-firmware["Saiba mais"].
+
+
+
+=== Melhorias de segurança
+
+O Element 12,3 resolve vulnerabilidades de segurança para nós de storage e nó de gerenciamento. https://security.netapp.com/["Saiba mais"] sobre essas melhorias de segurança.
+
+
+
+=== Comportamento aprimorado para falhas de unidades
+
+O Element 12,3 executa verificações periódicas de integridade em unidades de dispositivo SolidFire usando dados INTELIGENTES de integridade das unidades. Uma unidade que falha na verificação INTELIGENTE de integridade pode estar próxima da falha. Se uma unidade falhar na verificação de integridade INTELIGENTE, a unidade será transferida para o estado *Failed* e uma falha crítica do cluster de gravidade será exibida: `Drive with serial: <serial number> in slot: <node slot><drive slot> has failed the SMART overall health check. To resolve this fault, replace the drive.`
+
+
+
+=== Novo suporte ao servidor no SDS empresarial do SolidFire
+
+O SolidFire ESDS está agora disponível nos servidores Dell R640. Consulte o https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU&src=IMT["Ferramenta de Matriz de interoperabilidade NetApp (IMT)"^] para obter mais informações sobre a configuração suportada.
+
+
+
+=== Novo local para problemas conhecidos do SolidFire ESDS
+
+Agora você pode procurar por problemas conhecidos no https://mysupport.netapp.com/site/products/all/details/solidfire-enterprise-sds/bugsonline-tab["Ferramenta Bugs Online (login necessário)"^].
+
+[discrete]
+== Encontre mais informações
+
+* https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["Notas de lançamento dos serviços de gerenciamento e controle de nuvem híbrida da NetApp"^]
+* https://docs.netapp.com/us-en/vcp/index.html["Plug-in do NetApp Element para vCenter Server"^]
+* https://docs.netapp.com/us-en/element-software/index.html["Documentação do software SolidFire e Element"]
+* https://docs.netapp.com/us-en/element-software/index.html["Documentação do software SolidFire e Element"^]
+* http://docs.netapp.com/sfe-122/index.jsp["Centro de Documentação de Software SolidFire e Element para versões anteriores"^]
+* https://www.netapp.com/us/documentation/hci.aspx["Página de recursos do NetApp HCI"^]
+* link:../hardware/fw_storage_nodes.html["Versões de firmware de storage compatíveis para nós de storage do SolidFire"] _NOVO_
+

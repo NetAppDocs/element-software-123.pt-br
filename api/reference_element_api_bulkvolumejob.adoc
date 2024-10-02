@@ -1,0 +1,155 @@
+---
+permalink: api/reference_element_api_bulkvolumejob.html 
+sidebar: sidebar 
+keywords: bulkVolumeJob,object,objects,read,write,clones,snapshots,clone,snapshot 
+summary: O objeto bulkVolumeJob contém informações sobre operações de leitura ou gravação de volume em massa, como clonagem ou criação de instantâneos. 
+---
+= BulkVolumeJob
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+O objeto bulkVolumeJob contém informações sobre operações de leitura ou gravação de volume em massa, como clonagem ou criação de instantâneos.
+
+
+
+== Membros do objeto
+
+Este objeto contém os seguintes membros:
+
+|===
+| Nome | Descrição | Tipo 
+
+
+ a| 
+atributos
+ a| 
+Atributo JSON da tarefa de volume em massa.
+ a| 
+Objeto JSON
+
+
+
+ a| 
+VolumeID
+ a| 
+A ID interna do trabalho de volume em massa.
+ a| 
+número inteiro
+
+
+
+ a| 
+CreateTime
+ a| 
+Timestamp criado para a tarefa de volume em massa no formato UTC-0.
+ a| 
+String de data ISO 8601
+
+
+
+ a| 
+ElapsedTime
+ a| 
+O número de segundos desde o início do trabalho.
+ a| 
+cadeia de carateres
+
+
+
+ a| 
+formato
+ a| 
+O formato da operação de volume em massa. Valores possíveis:
+
+* nativo
+* não comprimido
+
+ a| 
+cadeia de carateres
+
+
+
+ a| 
+chave
+ a| 
+A chave exclusiva criada pela sessão de volume em massa.
+ a| 
+cadeia de carateres
+
+
+
+ a| 
+Percentil completo
+ a| 
+A percentagem concluída comunicada pela operação.
+ a| 
+número inteiro
+
+
+
+ a| 
+Tempo restante
+ a| 
+O tempo estimado restante em segundos.
+ a| 
+número inteiro
+
+
+
+ a| 
+SrcVolumeID
+ a| 
+A ID do volume de origem.
+ a| 
+número inteiro
+
+
+
+ a| 
+estado
+ a| 
+O estado da operação. Valores possíveis:
+
+* preparar
+* ativo
+* concluído
+* falha
+
+ a| 
+cadeia de carateres
+
+
+
+ a| 
+script
+ a| 
+O nome do script se for fornecido.
+ a| 
+cadeia de carateres
+
+
+
+ a| 
+SnapshotID
+ a| 
+A ID do instantâneo se um instantâneo estiver na origem do trabalho de volume em massa.
+ a| 
+número inteiro
+
+
+
+ a| 
+tipo
+ a| 
+O tipo de operação a granel. Valores possíveis:
+
+* leia
+* escreva
+
+ a| 
+cadeia de carateres
+
+|===

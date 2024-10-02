@@ -1,0 +1,150 @@
+---
+permalink: api/reference_element_api_clusterconfig.html 
+sidebar: sidebar 
+keywords: objects,object,clusterConfig 
+summary: O objeto clusterConfig retorna informações que o nó usa para se comunicar com o cluster. 
+---
+= ClusterConfig
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+O objeto clusterConfig retorna informações que o nó usa para se comunicar com o cluster.
+
+
+
+== Membros do objeto
+
+Este objeto contém os seguintes membros:
+
+|===
+| Nome | Descrição | Tipo 
+
+
+ a| 
+cipi
+ a| 
+Interface de rede usada para comunicação de cluster.
+ a| 
+cadeia de carateres
+
+
+
+ a| 
+cluster
+ a| 
+Nome exclusivo do cluster.
+ a| 
+cadeia de carateres
+
+
+
+ a| 
+Encriptável
+ a| 
+Especifica se o nó suporta criptografia.
+ a| 
+booleano
+
+
+
+ a| 
+ensemble
+ a| 
+Nós que estão participando do cluster.
+ a| 
+array de cadeia de carateres
+
+
+
+ a| 
+FipsDriveConfiguration
+ a| 
+Especifica se o nó é compatível com unidades com certificação FIPS 140-2.
+ a| 
+booleano
+
+
+
+ a| 
+HasLocalAdmin
+ a| 
+Especifica se o cluster tem um administrador local.
+ a| 
+booleano
+
+
+
+ a| 
+mipi
+ a| 
+Interface de rede usada para gerenciamento de nós.
+ a| 
+cadeia de carateres
+
+
+
+ a| 
+nome
+ a| 
+Identificador exclusivo para o cluster.
+ a| 
+cadeia de carateres
+
+
+
+ a| 
+NodeID
+ a| 
+Identificador exclusivo para o nó.
+ a| 
+número inteiro
+
+
+
+ a| 
+PendingNodeID
+ a| 
+Identificador exclusivo para o nó pendente.
+ a| 
+número inteiro
+
+
+
+ a| 
+função
+ a| 
+Identifica a função do nó.
+ a| 
+cadeia de carateres
+
+
+
+ a| 
+sipi
+ a| 
+Interface de rede usada para armazenamento.
+ a| 
+cadeia de carateres
+
+
+
+ a| 
+estado
+ a| 
+Indica o estado do nó.
+ a| 
+cadeia de carateres
+
+
+
+ a| 
+versão
+ a| 
+Indica a versão do nó.
+ a| 
+cadeia de carateres
+
+|===
