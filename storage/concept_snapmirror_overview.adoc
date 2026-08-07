@@ -19,6 +19,7 @@ Você pode replicar volumes originados do ONTAP para volumes de elementos em cas
 
 
 
+[[find-more-information]]
 == Encontre mais informações
 
 http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-sdbak/home.html["Replicação entre o software Element e o ONTAP"]

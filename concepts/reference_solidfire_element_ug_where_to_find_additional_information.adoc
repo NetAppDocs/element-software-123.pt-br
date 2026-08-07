@@ -19,9 +19,6 @@ No Centro de Documentação, você também pode encontrar informações sobre in
 +
 Fornece recursos sobre o software Element, incluindo links para conteúdo de vídeo e relatórios técnicos.
 
-+
-https://www.netapp.com/us/documentation/solidfire.aspx["Recursos de storage all-flash da SolidFire"]
-
 * *Centro de Documentação NetApp SolidFire*
 +
 Fornece informações sobre instalação e manutenção de hardware, recursos de conteúdo adicionais disponíveis, links para problemas conhecidos e problemas resolvidos e as notas de versão mais recentes.

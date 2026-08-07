@@ -54,6 +54,7 @@ Você também pode saber mais sobre as verificações de integridade do storage 
 
 
 
+[[use-netapp-hybrid-cloud-control-to-run-element-storage-health-checks-prior-to-upgrading-storage]]
 == Use o controle de nuvem híbrida da NetApp para executar verificações de integridade do storage Element antes de atualizar o storage
 
 Com o Controle de nuvem híbrida da NetApp, você pode verificar se um cluster de storage está pronto para ser atualizado.
@@ -83,6 +84,7 @@ Depois que a verificação de integridade for concluída sem erros, o cluster de
 
 
 
+[[use-api-to-run-element-storage-health-checks-prior-to-upgrading-storage]]
 == Use a API para executar verificações de integridade do storage Element antes de atualizar o storage
 
 Você pode usar a API REST para verificar se um cluster de storage está pronto para ser atualizado. A verificação de integridade verifica se não há obstáculos na atualização, como nós pendentes, problemas de espaço em disco e falhas de cluster.
@@ -214,6 +216,7 @@ Se todas as verificações de integridade forem bem-sucedidas, o retorno será s
 
 
 
+[[use-healthtools-to-run-element-storage-health-checks-prior-to-upgrading-storage]]
 == Use o HealthTools para executar verificações de integridade do storage Element antes de atualizar o armazenamento
 
 Você pode verificar se o cluster de armazenamento está pronto para ser atualizado usando o `sfupgradecheck` comando. Este comando verifica informações como nós pendentes, espaço em disco e falhas de cluster.
@@ -283,6 +286,7 @@ Node ID: 2 Upload speed: 85038.75 KBs/sec
 
 
 
+[[your-cluster-is-not-upgrade-ready]]
 === O cluster não está pronto para atualização
 
 Se você vir uma mensagem de erro relacionada a uma das verificações de integridade, siga estas etapas:
@@ -333,6 +337,7 @@ Neste exemplo, o nó 1 está com pouco espaço em disco. Você pode encontrar ma
 
 
 
+[[healthtools-is-out-of-date]]
 === HealthTools está desatualizado
 
 Se você vir uma mensagem de erro indicando que o HealthTools não é a versão mais recente, siga estas instruções:
@@ -355,6 +360,7 @@ Or rerun with the -n option
 
 
 
+[[your-management-node-is-on-a-dark-site]]
 === Seu nó de gerenciamento está em um local escuro
 
 . Revise a mensagem e observe que a verificação de atualização falha:
@@ -384,6 +390,7 @@ sfupgradecheck -u <cluster-user-name> -p <cluster-password> MVIP
 
 
 
+[[storage-health-checks-made-by-the-service]]
 == Verificações de integridade do armazenamento feitas pelo serviço
 
 As verificações de integridade do armazenamento fazem as seguintes verificações por cluster.

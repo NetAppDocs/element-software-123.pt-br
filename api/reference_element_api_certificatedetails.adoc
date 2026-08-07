@@ -15,6 +15,7 @@ O objeto certificateDetails contém as informações decodificadas sobre um cert
 
 
 
+[[object-members]]
 == Membros do objeto
 
 Este objeto contém os seguintes membros:

@@ -48,6 +48,7 @@ NOTE: Se você não atualizar sequencialmente seus serviços de gerenciamento se
 
 
 
+[[upgrade-a-management-node-to-version-12-3-x-from-12-2]]
 == Atualize um nó de gerenciamento para a versão 12,3.x de 12,2
 
 Você pode fazer uma atualização no local do nó de gerenciamento da versão 12,2 para a versão 12,3.x sem precisar provisionar uma nova máquina virtual de nó de gerenciamento.
@@ -141,6 +142,7 @@ IMPORTANT: Se você já tinha desabilitado a funcionalidade SSH no nó de gerenc
 
 
 
+[[upgrade-a-management-node-to-version-12-3-x-from-12-0]]
 == Atualize um nó de gerenciamento para a versão 12,3.x de 12,0
 
 Você pode fazer uma atualização no local do nó de gerenciamento da versão 12,0 para a versão 12,3.x sem precisar provisionar uma nova máquina virtual de nó de gerenciamento.
@@ -240,6 +242,7 @@ IMPORTANT: O recurso SSH que fornece link:../mnode/task_mnode_enable_remote_supp
 
 
 
+[[upgrade-a-management-node-to-version-12-3-x-from-11-3-through-11-8]]
 == Atualize um nó de gerenciamento para a versão 12,3.x de 11,3 a 11,8
 
 Você pode fazer uma atualização no local do nó de gerenciamento da versão 11,3, 11,5, 11,7 ou 11,8 para a versão 12,3.x sem precisar provisionar uma nova máquina virtual de nó de gerenciamento.
@@ -339,6 +342,7 @@ IMPORTANT: O recurso SSH que fornece link:../mnode/task_mnode_enable_remote_supp
 
 
 
+[[upgrade-a-management-node-to-version-12-3-x-from-11-1-or-11-0]]
 == Atualize um nó de gerenciamento para a versão 12,3.x de 11,1 ou 11,0
 
 Você pode fazer uma atualização no local do nó de gerenciamento de 11,0 ou 11,1 para a versão 12,3.x sem precisar provisionar uma nova máquina virtual de nó de gerenciamento.
@@ -506,6 +510,7 @@ Sua instalação tem uma configuração de ativo base que foi criada durante a i
 
 
 
+[[migrating-from-management-node-version-10-x-to-11-x]]
 == Migração do nó de gerenciamento versão 10.x para 11.x
 
 Se você tiver um nó de gerenciamento na versão 10.x, não será possível atualizar de 10.x para 11.x. Em vez disso, você pode usar esse procedimento de migração para copiar a configuração do 10.x para um nó de gerenciamento 11,1 recém-implantado. Se o seu nó de gerenciamento estiver atualmente em 11,0 ou superior, você deve ignorar este procedimento. Você precisa do nó de gerenciamento 11,0 ou 11,1 e do link:task_upgrade_element_latest_healthtools.html["últimas HealthTools"] para atualizar o software Element de 10,3 até 11.x.
@@ -615,6 +620,7 @@ sudo systemctl restart sfcollector
 
 
 
+[[reconfigure-authentication-using-the-management-node-rest-api]]
 == Reconfigure a autenticação usando a API REST do nó de gerenciamento
 
 Você pode manter seu nó de gerenciamento existente se tiver atualizado sequencialmente (1) serviços de gerenciamento e (2) storage de elementos. Se você seguiu uma ordem de atualização diferente, consulte os procedimentos para atualizações de nós de gerenciamento no local.

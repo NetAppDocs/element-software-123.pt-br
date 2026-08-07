@@ -31,7 +31,7 @@ Por exemplo, para adicionar um número de porta personalizado, introduza [nome d
 . Selecione *Use LDAPS Protocol*.
 . Insira as informações necessárias em *Configurações gerais*.
 +
-link:reference_system_manage_ldap_details.md#["Detalhes LDAP"]
+link:concept_system_manage_manage_ldap.html#view_ldap_details["Detalhes LDAP"]
 
 +
 image::../media/element_new_ldap_servers.jpg[Configurações gerais para a exibição de servidores LDAP]
@@ -61,6 +61,6 @@ Para testar isso, faça logout da IU do Element e faça login novamente como um 
 
 *Informações relacionadas*
 
-* link:concept_system_manage_manage_cluster_administrator_users.html#create_cluster_admin_account["Crie uma conta de administrador de cluster"]
+* link:concept_system_manage_manage_cluster_administrator_users.html#create-a-cluster-administrator-account["Crie uma conta de administrador de cluster"]
 * link:concept_system_manage_manage_ldap.html#view_ldap_details["Detalhes LDAP"]
 

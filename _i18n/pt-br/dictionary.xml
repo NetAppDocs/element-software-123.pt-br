@@ -5262,7 +5262,6 @@
   <block id="bd9307e7e0b2eab52bad2aa3e881eb03" category="paragraph">O total de operações de gravação cumulativas no volume desde a criação do volume.</block>
   <block id="b1ff5704b48e42d700d43961dd415064" category="doc">Marca comercial</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, o logotipo DA NetApp e as marcas listadas na página de marcas comerciais da NetApp são marcas comerciais da NetApp, Inc. Outros nomes de produtos e empresas podem ser marcas comerciais de seus respetivos proprietários.</block>
-  <block id="a93bc0a57623c2facaa010825c808507" category="paragraph"><block ref="a93bc0a57623c2facaa010825c808507" category="inline-link-rx"></block></block>
   <block id="389d33cbc9ae9f54288b4c6fd3f5d933" category="summary">Um cluster de storage SolidFire tem a capacidade de fornecer parâmetros de qualidade do serviço (QoS) por volume. Você pode garantir o desempenho do cluster medido em entradas e saídas por segundo (IOPS) usando três parâmetros configuráveis que definem QoS: Min IOPS, Max IOPS e Burst IOPS.</block>
   <block id="35beb39012d21be6ba566219e99021b9" category="doc">Desempenho e qualidade do serviço</block>
   <block id="b33b7a0f1639461a3999078f0f3daabf" category="paragraph">Um cluster de storage da SolidFire pode fornecer parâmetros de qualidade do serviço (QoS) por volume. Você pode garantir o desempenho do cluster medido em entradas e saídas por segundo (IOPS) usando três parâmetros configuráveis que definem QoS: Min IOPS, Max IOPS e Burst IOPS.</block>
@@ -5563,8 +5562,6 @@
   <block id="4a3ccd34d84d8d5dcf651bea4f92dde6" category="list-text"><block ref="4a3ccd34d84d8d5dcf651bea4f92dde6" category="inline-link-rx"></block></block>
   <block id="feaf808951dafefbf9943700efdb4315" category="inline-link">Centro de Documentação de Software SolidFire e Element para versões anteriores</block>
   <block id="049adc1802f0210729234e1fe80d95e6" category="list-text"><block ref="049adc1802f0210729234e1fe80d95e6" category="inline-link-rx"></block></block>
-  <block id="c93817bbfc3fab71f5f7ca740a11c847" category="inline-link">Página de recursos do NetApp HCI</block>
-  <block id="bc218e71c18c2f809dffb10d3bc2a6e8" category="list-text"><block ref="bc218e71c18c2f809dffb10d3bc2a6e8" category="inline-link-rx"></block></block>
   <block id="b1eb510dd705c0d83386b5f196686d5a" category="inline-link-macro">Versões de firmware de storage compatíveis para nós de storage do SolidFire</block>
   <block id="98a468bde174270b5d3c2f9e1ccfad2d" category="list-text"><block ref="2b1ef5ee19eb343f5728f051c35efde4" category="inline-link-macro-rx"></block> _NOVO_</block>
   <block id="a34166d7b2a72e36c4faae9587f3fe85" category="summary">Para administrar e fornecer acesso a recursos de storage em seu sistema, você precisará configurar contas para recursos do sistema.</block>
@@ -5861,8 +5858,6 @@
   <block id="34515669e219305dec5f0b81dbef8b1e" category="paragraph">No Centro de Documentação, você também pode encontrar informações sobre instalação e manutenção de hardware, recursos de conteúdo adicionais disponíveis, links para problemas conhecidos e problemas resolvidos e as notas de versão mais recentes.</block>
   <block id="662a5ad8c6ae651da9220e35d3f16a18" category="list-text">*Página de recursos do NetApp SolidFire*</block>
   <block id="c39c68328651c80dceb0f36d050a7109" category="paragraph">Fornece recursos sobre o software Element, incluindo links para conteúdo de vídeo e relatórios técnicos.</block>
-  <block id="4b3e0d4570a278a1af3fe11601c01d47" category="inline-link">Recursos de storage all-flash da SolidFire</block>
-  <block id="c16fe39e6b501b8347fb1dd55ba312c6" category="paragraph"><block ref="c16fe39e6b501b8347fb1dd55ba312c6" category="inline-link-rx"></block></block>
   <block id="4a9c1435e759b5c6dd543fceea09ea44" category="list-text">*Centro de Documentação NetApp SolidFire*</block>
   <block id="028b8f4057634cf2f3954305a74dc779" category="paragraph">Fornece informações sobre instalação e manutenção de hardware, recursos de conteúdo adicionais disponíveis, links para problemas conhecidos e problemas resolvidos e as notas de versão mais recentes.</block>
   <block id="99876372740307113d18bf0a8023fbbf" category="inline-link">Centro de Documentação SolidFire e Element 11,3</block>
@@ -7805,7 +7800,6 @@
   <block id="177512b9add0b40c38dad61838bf7d79" category="section-title">Gerenciamento de ativos</block>
   <block id="e578d1edd1f3c874d49e1c9e76becbbc" category="list-text"><block ref="e578d1edd1f3c874d49e1c9e76becbbc" category="inline-link-macro-rx"></block></block>
   <block id="6740b5cf3dc8479800bac9edc86cd31a" category="inline-link-macro">Use a API REST para coletar logs do sistema Element</block>
-  <block id="4fff24ec2d2b11f3a503f7b0abacb1cb" category="list-text"><block ref="4fff24ec2d2b11f3a503f7b0abacb1cb" category="inline-link-macro-rx"></block></block>
   <block id="c9676e9b030c94e7e828a060b343f3db" category="list-text"><block ref="c9676e9b030c94e7e828a060b343f3db" category="inline-link-macro-rx"></block></block>
   <block id="b8ce529cfc2b9255a783e211ddb57996" category="list-text"><block ref="b8ce529cfc2b9255a783e211ddb57996" category="inline-link-macro-rx"></block></block>
   <block id="9cce958dcc64c232fd2c1c35b2dadde7" category="list-text"><block ref="9cce958dcc64c232fd2c1c35b2dadde7" category="inline-link-macro-rx"></block></block>
@@ -7936,7 +7930,6 @@
   <block id="1c45fd215e6dc295350e4f4f5e2e7e41" category="list-text"><block ref="1c45fd215e6dc295350e4f4f5e2e7e41" category="inline-xref-macro-rx"></block></block>
   <block id="a8d3424ca67e2754569ae54982c009df" category="list-text"><block ref="a8d3424ca67e2754569ae54982c009df" category="inline-xref-macro-rx"></block></block>
   <block id="a2afe432d12965caf22f4ff7eb1b173e" category="inline-xref-macro">Configure um nó de gerenciamento</block>
-  <block id="f17bdc3100242be6aa20374cb07b1e01" category="list-text"><block ref="f17bdc3100242be6aa20374cb07b1e01" category="inline-xref-macro-rx"></block></block>
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="inline-xref-macro">O que se segue?</block>
   <block id="6b758c6baa8d819395041efcb30c549d" category="list-text"><block ref="6b758c6baa8d819395041efcb30c549d" category="inline-xref-macro-rx"></block></block>
   <block id="0263150036c1e3cfabff6bedf47d102e" category="summary">Você pode acessar a IU do elemento usando o endereço IP virtual de gerenciamento (MVIP) do nó do cluster primário.</block>
@@ -8859,8 +8852,6 @@
   <block id="a4cba27ccc43d00c0bd0c00a74974b97" category="list-text"><block ref="a4cba27ccc43d00c0bd0c00a74974b97" category="inline-link-rx"></block></block>
   <block id="275b3db58911d0480b2a907dde87b422" category="inline-link">Centro de Documentação SolidFire e Element 11,5</block>
   <block id="319d00f06f0a5e8e99d071d51fe10259" category="list-text"><block ref="319d00f06f0a5e8e99d071d51fe10259" category="inline-link-rx"></block></block>
-  <block id="de71a625454de99f599dff258c53dbb8" category="inline-link">Página de recursos do SolidFire</block>
-  <block id="b81ee69dc01cdd048b45d27758827feb" category="list-text"><block ref="b81ee69dc01cdd048b45d27758827feb" category="inline-link-rx"></block></block>
   <block id="81b2a3e0170848e7834ed1fb32fbc8e3" category="summary">A interface do software NetApp Element exibe ícones para representar as ações que você pode executar nos recursos do sistema.</block>
   <block id="dcb7fb5f6b2a95a3ceb10397aaf93e61" category="doc">Ícones na interface do elemento</block>
   <block id="7cb128de1f7fc1f95255b039388271a0" category="paragraph">A tabela a seguir fornece uma referência rápida:</block>
@@ -9488,7 +9479,6 @@
   <block id="2f00805e044ca70467775f06c1872f89" category="paragraph">Servidor LDAP</block>
   <block id="5483ab43104d3514dfdd7917f5a51b09" category="paragraph">389 TCP/UDP</block>
   <block id="19a0425f816e3267d5a9f5ee03f4fc4f" category="paragraph">Pesquisa LDAP (opcional)</block>
-  <block id="6ca93b96b4cd5e33a779ecc83fde0268" category="paragraph">Atualizações de firmware de storage Element</block>
   <block id="5ee0194e49d16c87d081efc156fb0d74" category="paragraph">Cluster de armazenamento remoto MVIP</block>
   <block id="75a4d5a956df2844befb13a89867e179" category="paragraph">Comunicação de emparelhamento do cluster de replicação remota</block>
   <block id="e902ca26db3b32a7d466ef307db87d60" category="paragraph">MIP do nó de storage remoto</block>
@@ -9962,7 +9952,6 @@
   <block id="23fd7202fd22f55991e760ad0c321e8c" category="list-text">Verifique se foi criado um ponto final de protocolo para cada nó no cluster.</block>
   <block id="856c3e7758eb11b79c64f0354ae8b417" category="admonition">Tarefas de configuração adicionais são necessárias no vSphere. Consulte o _Guia de configuração do VMware vSphere Virtual volumes for SolidFire Storage_ para Registrar o provedor VASA no vCenter, criar e gerenciar datastores VVol e gerenciar o storage com base em políticas.</block>
   <block id="ef9f3ff37cf3150278a11138bf61416f" category="inline-link">Guia de configuração do VMware vSphere Virtual volumes for SolidFire Storage</block>
-  <block id="3d08f19c985682eb2a632e36184cedd2" category="paragraph"><block ref="3d08f19c985682eb2a632e36184cedd2" category="inline-link-rx"></block></block>
   <block id="a25585714577ecf53e74bf6ba927939b" category="summary">Você pode revisar as informações de volume virtual de todos os volumes virtuais ativos no cluster na IU do Element. Você também pode visualizar a atividade de desempenho de cada volume virtual, incluindo informações de entrada, saída, taxa de transferência, latência, profundidade da fila e volume.</block>
   <block id="bb0b3ec1fbf17c782efc2b196ad33dd2" category="list-text">Você deve ter habilitado a funcionalidade vols na IU do Element para o cluster.</block>
   <block id="bb4ae57cfc1de5cb77443f3b073ffc7f" category="list-text">Você deve ter criado um contêiner de storage associado.</block>
@@ -10874,9 +10863,7 @@
   <block id="248c4c4df12448050266854cd21cd105" category="paragraph"><block ref="248c4c4df12448050266854cd21cd105" category="inline-link-rx"></block></block>
   <block id="02917d00c6e974040b113eec406f933d" category="paragraph">Os sistemas que executam o software NetApp Element oferecem suporte ao recurso SnapMirror para copiar e restaurar cópias Snapshot com sistemas NetApp ONTAP. O principal motivo para usar essa tecnologia é a recuperação de desastres do NetApp HCI para o ONTAP. Os pontos de extremidade incluem ONTAP, ONTAP Select e Cloud Volumes ONTAP. Consulte proteção de dados NetApp HCI TR-4641.</block>
   <block id="37a9cf4fd8039696452f63fb22f06182" category="inline-link">Relatório técnico da NetApp 4641: Proteção de dados da NetApp HCI</block>
-  <block id="b456d131470ee117b6ff900f949b80c5" category="paragraph"><block ref="b456d131470ee117b6ff900f949b80c5" category="inline-link-rx"></block></block>
   <block id="0ae5c767cabcaa90f5848cabc66f8aa9" category="inline-link">Crie seu Data Fabric com NetApp HCI, ONTAP e infraestrutura convergente</block>
-  <block id="1791fd435a83f3ee701165e29bb05b2f" category="list-text"><block ref="1791fd435a83f3ee701165e29bb05b2f" category="inline-link-rx"></block></block>
   <block id="5865b8968ae6d9762765ab7ce3d35fc2" category="inline-link">Replicação entre o software NetApp Element e o ONTAP</block>
   <block id="b00bc340461aac1deb8b1a1e1382cf0c" category="list-text"><block ref="b00bc340461aac1deb8b1a1e1382cf0c" category="inline-link-rx"></block></block>
   <block id="8cb89b387c0217f2060ca414b41c63b2" category="summary">Com clusters do SolidFire, é possível criptografar todos os dados armazenados no cluster usando criptografia baseada em software ou hardware em repouso.</block>
@@ -10936,11 +10923,9 @@
   <block id="e2be4de5da79d1853426d449da86df17" category="paragraph"><block ref="e2be4de5da79d1853426d449da86df17" category="inline-link-rx"></block></block>
   <block id="4a0a4752a851bfbcb612292d19d020e2" category="list-text">Selecione *Use LDAPS Protocol*.</block>
   <block id="4e8b9c52e60070f73bcaa6e5e5ba4121" category="inline-link-macro">Detalhes LDAP</block>
-  <block id="543e9c1cf295e8284006e3af49b8105a" category="paragraph"><block ref="543e9c1cf295e8284006e3af49b8105a" category="inline-link-macro-rx"></block></block>
   <block id="e6344f017ebc6c23de294cbd0c5b3ec0" category="image-alt">Configurações gerais para a exibição de servidores LDAP</block>
   <block id="bf0a897972fda4244e862fc7b7474446" category="image-alt">Crie uma nova visualização de utilizador</block>
   <block id="d33f2a600ba4fe43084a26e95e4908c0" category="paragraph">*Informações relacionadas*</block>
-  <block id="521e8e8587c418fa92f54811f8954007" category="list-text"><block ref="521e8e8587c418fa92f54811f8954007" category="inline-link-macro-rx"></block></block>
   <block id="ecec8bb5649856a856a861a75e4daa84" category="list-text"><block ref="ecec8bb5649856a856a861a75e4daa84" category="inline-link-macro-rx"></block></block>
   <block id="f1aa667beb6cd8067ba48e37db92621b" category="summary">Você pode exibir detalhes de portas Fibre Channel, como status, nome e endereço de porta, na página portas FC.</block>
   <block id="8d1d0ba15171b757021a97d02330ecad" category="paragraph">Exibir informações sobre as portas Fibre Channel conetadas ao cluster.</block>
@@ -11042,7 +11027,6 @@
   <block id="d4f3775e2bff41a57405effb2e7249b6" category="paragraph">Você pode usar essas etapas básicas por meio da API Element para configurar seu cluster para usar a autenticação multifator.</block>
   <block id="a8d74e35fafff7a5f37815f2dcc89753" category="paragraph">Os detalhes de cada método de API podem ser encontrados no <block ref="c9d614c7cd4efd8daab5302738f269c2" category="inline-link-macro-rx"></block>.</block>
   <block id="88b1e425f6a8d373d7b16e1b016c6de1" category="list-text">Crie uma nova configuração de provedor de identidade (IDP) de terceiros para o cluster chamando o seguinte método de API e passando os metadados IDP no formato JSON:<block ref="9c795e21fce602a372254d5a09ba96ad" prefix=" " category="inline-code"></block></block>
-  <block id="168af22e9c6015f03678011bffdead13" category="paragraph">Os metadados IDP, em formato de texto simples, são recuperados do IDP de terceiros. Esses metadados precisam ser validados para garantir que estejam formatados corretamente em JSON. Existem vários aplicativos de formatador JSON disponíveis que você pode usar, por exemplo:https://freeformatter.com/json-escape.html.</block>
   <block id="65b69ef14e13e541a93abafc7baa59a1" category="list-text">Recupere metadados de cluster, via spMetadataUrl, para copiar para o IDP de terceiros chamando o seguinte método API:<block ref="fa9180a48c389ffd05a56ad89f9134ad" prefix=" " category="inline-code"></block></block>
   <block id="35cfc4986f93cb44da66955bf17e3c60" category="paragraph">SpMetadataUrl é um URL usado para recuperar metadados do provedor de serviços do cluster para o IDP, a fim de estabelecer um relacionamento de confiança.</block>
   <block id="c3a1c9aeec925dec1a8d9125871ae8b6" category="list-text">Configure asserções SAML no IDP de terceiros para incluir o atributo "'NameID'" para identificar exclusivamente um usuário para o Registro de auditoria e para que o Logout único funcione corretamente.</block>
@@ -11961,4 +11945,18 @@
   <block id="055c37e82a2e8b5a5c2d073fe46d98bb" category="list-text"><block ref="055c37e82a2e8b5a5c2d073fe46d98bb" category="inline-link-macro-rx"></block></block>
   <block id="c31ff914893a6941b1e7621565be0d0c" category="list-text"><block ref="c31ff914893a6941b1e7621565be0d0c" category="inline-link-macro-rx"></block></block>
   <block id="fe3c28c386d2be6c3cbda4b2feb01c29" category="list-text"><block ref="e8348e5b207b91893f9322900bc614aa" category="inline-link-rx"></block>.</block>
+  <block id="cedd3b982f345250c95c539d68542a1c" category="admonition">Existem tipos de acesso disponíveis através da API que não estão disponíveis na interface do usuário do Element.</block>
+  <block id="30f60d67f457bb040dffde52197a54da" category="paragraph-title">Informações relacionadas</block>
+  <block id="66ae9524f9c214ce3d4ddc510dc6384a" category="inline-link-macro">Saiba mais sobre os tipos de acesso disponíveis na interface do usuário do Element</block>
+  <block id="e3ae42684db77c59ef80c04aae526de5" category="paragraph"><block ref="e3ae42684db77c59ef80c04aae526de5" category="inline-link-macro-rx"></block></block>
+  <block id="8c7d040a87c37f1f3051f72abbfbcbc5" category="list-text"><block ref="8c7d040a87c37f1f3051f72abbfbcbc5" category="inline-link-macro-rx"></block></block>
+  <block id="b254c421d245be4ca380ce1a75b8ed59" category="list-text"><block ref="b254c421d245be4ca380ce1a75b8ed59" category="inline-xref-macro-rx"></block></block>
+  <block id="f72c81a1158d9efb9bad238e3c497a6c" category="inline-link-macro">Saiba mais sobre os tipos de acesso disponíveis para as APIs do Element</block>
+  <block id="c858f3d30df8c552799df529153c0e44" category="list-text"><block ref="c858f3d30df8c552799df529153c0e44" category="inline-link-macro-rx"></block></block>
+  <block id="bd000e3a7a010d55765a9684adc1c25f" category="paragraph">Atualizações de armazenamento Element</block>
+  <block id="161b4ed96d634114cd790ffb7038cc24" category="paragraph"><block ref="161b4ed96d634114cd790ffb7038cc24" category="inline-link-rx"></block></block>
+  <block id="c28c56f7a7ce8d5595899ccc3950cb6d" category="paragraph"><block ref="c28c56f7a7ce8d5595899ccc3950cb6d" category="inline-link-rx"></block></block>
+  <block id="145012f945e6ea9359e0b746c1a4925a" category="list-text"><block ref="145012f945e6ea9359e0b746c1a4925a" category="inline-link-rx"></block></block>
+  <block id="9cad028b90d6f90e57eee2a48ccf4000" category="list-text"><block ref="9cad028b90d6f90e57eee2a48ccf4000" category="inline-link-macro-rx"></block></block>
+  <block id="a1855ae3a0a42fa9d6e151b58b750f1f" category="paragraph">Os metadados do IdP, em formato de texto simples, são obtidos do IdP de terceiro. Esses metadados precisam ser validados para garantir que estejam formatados corretamente em JSON. Existem diversos aplicativos de formatação JSON disponíveis que você pode usar, por exemplo: https://freeformatter.com/json-escape.html</block>
 </blocks>

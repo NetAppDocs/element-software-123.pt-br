@@ -19,6 +19,7 @@ Saiba mais sobre recursos e ferramentas para ajudá-lo a começar a usar o softw
 
 
 
+[[find-more-information]]
 == Encontre mais informações
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentação do software SolidFire e Element"]
